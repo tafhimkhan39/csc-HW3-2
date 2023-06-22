@@ -1,22 +1,19 @@
 .container {
     max-width: 500px;
-    margin: auto;
     width: 100%;
-    border-radius: 100px;
-    padding: 30px;
+    padding: 100px;
 }
 
-.result {
+.bar {
     width: 100%;
     height: 60px;
-    padding: 10px;
-    font-size: 24px;
+    padding: 5px;
+    font-size: 30px;
     text-align: right;
-    background-color: #fff;
     border: none;
     border-radius: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px rgba(116, 36, 36, 0.1);
 }
 
 .buttons {

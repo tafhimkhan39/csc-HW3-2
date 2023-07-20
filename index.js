@@ -109,8 +109,8 @@ function factorial(n) {
 function evalExpression(expression) {
       expression = expression.replace(/x/g, '*').replace(/÷/g, '/');
       expression = expression.replace(/(-?\d+)([+\-*\/])(-?\d+)/g, (_, num1, operator, num2) => {
-        num1 = (num1);
-        num2 = (num2);
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
         switch (operator) {
           case '/':
             return num1 / num2;
